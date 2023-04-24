@@ -1,0 +1,23 @@
+import java.util.*;
+public class Main{
+    public static void main(String args[]) {
+        Hero obj = new Hero();
+        obj.record("Piyush" , 21);
+        obj.display();
+        
+        
+    }
+}
+
+class Hero {
+    String name;
+    int age;
+    
+void record(String n , int a){
+        name =n;
+        age =a;
+    }
+void display () {
+        System.out.println(name + " " + age);
+    }
+}
